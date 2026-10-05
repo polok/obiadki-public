@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Obiadki: rozliczenia szkolnych obiadów</title>
+<meta name="description" content="Obiadki liczą, ile przelać za szkolne obiady, odliczają nieobecności i pomijają święta. Dla wielu dzieci naraz.">
+<style>
+  :root{color-scheme:light dark;--bg:#F0FAF8;--surface:#FFFFFF;--ink:#1D1620;--soft:#5B7476;--accent:#0B7F66;--border:#D3E8E2;--g1:#18C28A;--g2:#1488E8;--on:#FFFFFF}
+  @media(prefers-color-scheme:dark){:root{--bg:#07131A;--surface:#0F2028;--ink:#F2EFF4;--soft:#8AA3A6;--accent:#3FE0B0;--border:#1E3540;--g1:#38E3A5;--g2:#1EA7FD;--on:#03211A}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;font-size:16px;line-height:1.6;-webkit-text-size-adjust:100%}
+  body:before{content:"";position:fixed;inset:0;z-index:-1;background:radial-gradient(60% 40% at 90% -5%,rgba(24,194,138,.22),transparent 70%),radial-gradient(50% 40% at -5% 105%,rgba(20,136,232,.18),transparent 70%)}
+  .wrap{max-width:720px;margin:0 auto;padding:28px 20px 56px}
+  nav{display:flex;gap:18px;flex-wrap:wrap;align-items:center;margin-bottom:36px;font-weight:700}
+  nav a{color:var(--ink);text-decoration:none}nav a:hover,nav a[aria-current]{color:var(--accent)}
+  nav .brand{margin-right:auto;font-size:18px}
+  h1{font-size:clamp(28px,6vw,40px);line-height:1.15;margin:0 0 8px;letter-spacing:-.01em;text-wrap:balance}
+  h2{font-size:20px;margin:34px 0 8px}
+  p,li{color:var(--ink)}p{margin:0 0 14px}ul{padding-left:22px;margin:0 0 14px}li{margin-bottom:6px}
+  .lead{font-size:18px;color:var(--soft);margin-bottom:26px}
+  .updated{font-size:13px;font-weight:600;color:var(--soft);margin:0 0 24px}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:18px 20px;margin:0 0 20px}
+  .card strong{color:var(--accent)}
+  a{color:var(--accent)}
+  .btn{display:inline-block;padding:13px 24px;border-radius:999px;background:linear-gradient(135deg,var(--g1),var(--g2));color:var(--on);font-weight:700;text-decoration:none}
+  .btns{display:flex;gap:12px;flex-wrap:wrap;margin:0 0 20px}
+  .btn.ghost{background:var(--surface);color:var(--ink);border:1px solid var(--border)}
+  .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));margin:0 0 24px}
+  .grid .card{margin:0}.grid h3{margin:0 0 6px;font-size:16px}.grid p{margin:0;color:var(--soft);font-size:15px}
+  details{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:14px 18px;margin:0 0 10px}
+  summary{cursor:pointer;font-weight:700}details p{margin:10px 0 0}
+  footer{margin-top:44px;color:var(--soft);font-size:13px;display:flex;gap:16px;flex-wrap:wrap}
+  footer a{color:var(--soft)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav><a class="brand" href="index.html">Obiadki</a><a href="privacy.html">Prywatność</a><a href="support.html">Wsparcie</a></nav>
+
+  <h1>Obiadki</h1>
+  <p class="lead">Wiesz, ile przelać za szkolne obiady. Aplikacja liczy kwotę na kolejny miesiąc, odlicza zgłoszone nieobecności i pomija polskie święta.</p>
+  <div class="btns">
+    <a class="btn" href="https://apps.apple.com/app/id6818998861">Pobierz w App Store</a>
+    <a class="btn ghost" href="support.html">Wsparcie</a>
+    <a class="btn ghost" href="privacy.html">Polityka prywatności</a>
+  </div>
+  <div class="grid">
+    <div class="card"><h3>Kwota do przelewu</h3><p>Jedna liczba na ekranie głównym, z podziałem na dzieci.</p></div>
+    <div class="card"><h3>Nieobecności</h3><p>Zgłoszone na czas pomniejszają kolejną płatność.</p></div>
+    <div class="card"><h3>Święta i dni wolne</h3><p>Polskie święta liczą się same, własne dni wolne dodajesz ręcznie.</p></div>
+    <div class="card"><h3>Prywatnie</h3><p>Bez konta i internetu. Dane zostają na Twoim urządzeniu.</p></div>
+  </div>
+  <footer><span>© 2026 ideaapps.io</span><a href="privacy.html">Polityka prywatności</a><a href="support.html">Wsparcie</a></footer>
+</div>
+</body>
+</html>
