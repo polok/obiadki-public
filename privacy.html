@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Polityka prywatności: Obiadki</title>
-<meta name="description" content="Polityka prywatności aplikacji Obiadki. Aplikacja działa offline i nie zbiera danych.">
+<meta name="description" content="Polityka prywatności aplikacji Obiadki. Dane z aplikacji zostają na urządzeniu, wysyłamy tylko anonimowe statystyki i raporty o awariach.">
 <style>
   :root{color-scheme:light dark;--bg:#F0FAF8;--surface:#FFFFFF;--ink:#1D1620;--soft:#5B7476;--accent:#0B7F66;--border:#D3E8E2;--g1:#18C28A;--g2:#1488E8;--on:#FFFFFF}
   @media(prefers-color-scheme:dark){:root{--bg:#07131A;--surface:#0F2028;--ink:#F2EFF4;--soft:#8AA3A6;--accent:#3FE0B0;--border:#1E3540;--g1:#38E3A5;--g2:#1EA7FD;--on:#03211A}}
@@ -40,12 +40,13 @@
 
   <h1>Polityka prywatności</h1>
   <p class="updated">Aplikacja Obiadki. Ostatnia aktualizacja: 5 października 2026</p>
-  <div class="card"><strong>Najkrócej mówiąc:</strong> Obiadki działają w całości offline. Nie wysyłamy, nie zbieramy i nie sprzedajemy Twoich danych. Nic, co wpiszesz do aplikacji, nie opuszcza Twojego urządzenia.</div>
+  <div class="card"><strong>Najkrócej mówiąc:</strong> Dane, które wpisujesz do aplikacji (dzieci, nieobecności, opłaty), zostają na Twoim urządzeniu i nigdzie nie są wysyłane. Aplikacja wysyła tylko anonimowe statystyki użycia i raporty o awariach, bez imion, kwot i dat. Nie sprzedajemy danych i nie wyświetlamy reklam.</div>
 
   <h2>Jakie dane przechowuje aplikacja</h2>
   <p>Obiadki zapisują lokalnie na Twoim urządzeniu wyłącznie dane, które sam wprowadzasz:</p>
   <ul>
     <li>imiona dzieci, wybrane kolory, stawki za obiady i terminy rozliczeń,</li>
+    <li>numer konta, telefon kontaktowy i notatki, jeśli je wpiszesz w formularzu dziecka,</li>
     <li>zgłoszone nieobecności,</li>
     <li>dodane przez Ciebie dni wolne w szkole,</li>
     <li>rozliczenia opłaconych miesięcy w archiwum,</li>
@@ -54,19 +55,32 @@
   <p>Dane są przechowywane w lokalnej bazie danych na urządzeniu. Jeśli masz włączone kopie zapasowe iCloud lub iTunes dla tego urządzenia, dane mogą trafić do Twojej własnej kopii zapasowej. To mechanizm systemu iOS, a nie coś, co aplikacja robi samodzielnie.</p>
 
   <h2>Czy aplikacja łączy się z internetem</h2>
-  <p>Nie. Obiadki nie wysyłają żadnych danych na żadne serwery, nie korzystają z analityki, reklam ani usług firm trzecich. Aplikacja nie wymaga konta ani logowania.</p>
+  <p>Do działania nie jest potrzebny internet, a aplikacja nie wymaga konta ani logowania. Jedyne dane, które aplikacja wysyła, to anonimowe dane techniczne opisane niżej (Google Firebase). Nie ma w niej reklam.</p>
+
+  <h2>Statystyki użycia i raporty o awariach</h2>
+  <p>Korzystamy z usług Google Firebase: Analytics (statystyki użycia) i Crashlytics (raporty o awariach), żeby widzieć, które funkcje są używane i naprawiać błędy. Przesyłane są:</p>
+  <ul>
+    <li>zdarzenia opisujące użycie aplikacji, np. otwarcie ekranu, dodanie dziecka albo oznaczenie opłaty (bez imion, kwot i dat),</li>
+    <li>losowy identyfikator instalacji aplikacji (nie jest powiązany z Twoim imieniem, adresem e-mail ani kontem),</li>
+    <li>model urządzenia, wersja iOS i wersja aplikacji, język oraz przybliżona lokalizacja (kraj lub region ustalany przez Google z adresu IP),</li>
+    <li>w razie awarii: raport zawierający stan aplikacji w momencie awarii.</li>
+  </ul>
+  <p>Nie przesyłamy imion dzieci, kwot, dat nieobecności ani żadnych treści, które wpisujesz. Dane przetwarza Google jako nasz podmiot przetwarzający, zgodnie z <a href="https://policies.google.com/privacy">polityką prywatności Google</a>. Nie łączymy ich z Twoją tożsamością.</p>
+
+  <h2>Powiadomienia</h2>
+  <p>Przypomnienie o opłacie jest domyślnie wyłączone. Jeśli je włączysz i zezwolisz na powiadomienia, Obiadki zaplanują lokalne powiadomienia na Twoim urządzeniu. Są tworzone i wyświetlane przez system iOS, nie przechodzą przez żaden serwer i nie zawierają imion dzieci. Wyłączysz je w Ustawieniach aplikacji albo w ustawieniach powiadomień systemu.</p>
 
   <h2>Formularz zgłoszeń</h2>
   <p>Opcja „Zgłoś pomysł lub błąd" w Ustawieniach otwiera w przeglądarce formularz Google. Dane wpisane w formularzu trafiają do nas przez Google Forms i podlegają polityce prywatności Google. Prosimy nie podawać tam danych dzieci. Samo korzystanie z aplikacji nie wymaga używania formularza.</p>
 
   <h2>Udostępnianie danych</h2>
-  <p>Nie udostępniamy żadnych danych osobom ani firmom trzecim, ponieważ nigdzie ich nie wysyłamy.</p>
+  <p>Nie sprzedajemy danych i nie udostępniamy ich nikomu poza Google, który przetwarza opisane wyżej anonimowe dane techniczne. Dane, które wpisujesz do aplikacji, nie opuszczają urządzenia.</p>
 
   <h2>Usunięcie danych</h2>
   <p>Usunięcie aplikacji z urządzenia usuwa również wszystkie zapisane w niej dane. Możesz też w dowolnym momencie usuwać pojedyncze dzieci, zgłoszenia i dni wolne bezpośrednio w aplikacji.</p>
 
   <h2>Dane dzieci</h2>
-  <p>Aplikacja przechowuje imiona dzieci wyłącznie na Twoim urządzeniu i nikomu ich nie przekazuje. Nie zbieramy żadnych danych o dzieciach ani o ich użytkowaniu aplikacji.</p>
+  <p>Aplikacja przechowuje imiona dzieci wyłącznie na Twoim urządzeniu i nikomu ich nie przekazuje. Do Google nie trafiają żadne imiona ani inne dane dzieci, tylko anonimowe statystyki użycia aplikacji.</p>
 
   <h2>Zmiany w polityce prywatności</h2>
   <p>Jeśli kiedykolwiek zmienimy sposób działania aplikacji w sposób wpływający na prywatność, zaktualizujemy ten dokument i datę na górze strony.</p>
